@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "earthling-ui";
+@import "earthling-ui/theme/dark";
+
+@layer base {
+  :root[data-theme="dark"] {
+    @apply theme-dark;
+  }
+}
