@@ -20,6 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true, 
 
+    "types": ["unplugin-fonts/client"],
+
     "paths": {
       "@/*": ["./src/*"]
     }

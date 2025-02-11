@@ -3,7 +3,18 @@
 @import "earthling-ui/theme/dark";
 
 @layer base {
+  :root {
+    --font-display: "Geist", sans-serif;
+    --font-body: "Geist", sans-serif;
+    --font-mono: "Geist-Mono", monospace;
+  }
+
   :root[data-theme="dark"] {
     @apply theme-dark;
+  }
+  :root[data-theme="system"] {
+    @media (prefers-color-scheme: dark) {
+      @apply theme-dark;
+    }
   }
 }

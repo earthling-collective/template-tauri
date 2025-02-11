@@ -18,7 +18,6 @@ function App() {
         <Input value={name} onChange={(e) => setName(e.target.value)} />
         <Button onClick={greet}>Send</Button>
       </div>
-
       <div>{greetMsg}</div>
     </div>
   );

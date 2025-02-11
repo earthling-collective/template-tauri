@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    animated_choices_lib::run()
+    earthling_template_lib::run()
 }

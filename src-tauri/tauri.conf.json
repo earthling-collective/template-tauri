@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "template-name",
+  "productName": "earthling-template-name",
   "version": "0.1.0",
-  "identifier": "template-app-id",
+  "identifier": "earthling-template-app-id",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "template-name",
+        "title": "earthling-template-name",
         "width": 800,
         "height": 600
       }
