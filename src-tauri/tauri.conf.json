@@ -2,7 +2,7 @@
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "earthling-template-name",
   "version": "0.1.0",
-  "identifier": "earthling-template-app-id",
+  "identifier": "earthling.template-app.id",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
